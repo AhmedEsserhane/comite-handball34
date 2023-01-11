@@ -1,0 +1,44 @@
+.map__image{
+    width: 60% !important;
+    //float: left !important;
+}
+
+.map__imageb{
+    width: 100% !important;
+    //float: left !important;
+}
+.map__imageb path{
+    fill: #a4ced2 !important;
+    transition: fill 0.3s !important;
+}
+
+.map__imageb .is-active path{
+    fill: #013c74 !important;
+}
+
+.map__image path{
+    fill: #a4ced2 !important;
+    //stroke: #FFF !important;
+    //stroke-width: 1px !important;
+    transition: fill 0.3s !important;
+}
+
+.map__image .is-active path{
+    fill: #013c74 !important;
+}
+
+.map__list{
+    float: right !important;
+    width: 40% !important;
+}
+
+.map__list a{
+    color: inherit !important;
+    text-decoration: none !important;
+    transition: color 0.3s !important;
+}
+.map__list a.is-active{
+    color: #013c74 !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
